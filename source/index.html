@@ -1,12 +1,90 @@
+
 <!DOCTYPE html>
-<html lang="ru">
-  <head>
-    <meta charset="utf-8">
-    <title>HTML Academy: Пинк</title>
-  </head>
-  <body>
-
-    <p>Репозиторий создан для обучения на профессиональном онлайн‑курсе «<a href="https://htmlacademy.ru/intensive/adaptive">HTML и CSS, уровень 2</a>».</p>
-
-  </body>
+<html class="page" lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <title>Сайт фотоприложения Пинк</title>
+</head>
+<body class="page__body">
+  <header class="main-header">
+    <nav class="main-nav">
+      <div class="main-nav__logo-wrapper">
+      <a class="main-nav__logo">
+          <img src="https://via.placeholder.com/" width="74" height="23" alt="Логотип Пинк">
+      </a>
+      </div>
+      <button class="main-nav__toggle" type="button"><span class="visually-hidden">Открыть меню</span></button>
+      <div class="main-nav__wrapper">
+        <ul class="main-nav__list site-list">
+          <li class="site-list__item site-list__item--active">
+            <a>Главная</a>
+          </li>
+          <li class="site-list__item">
+            <a href="photo.html">Фотографии</a>
+          </li>
+          <li class="site-list__item">
+            <a href="form.html">Конкурс</a>
+          </li>
+          <li class="site-list__item">
+            <a href="#">HTML Academy</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+    <div class="intro">
+      <h2 class="intro__title">Взгляните на жизнь иначе!</h2>
+      <img src="https://via.placeholder.com/" width="320" height="462" alt="">
+      <button class="intro__button">Скачать приложение</button>
+      <ul class="intro__list">
+        <li class="intro__item">
+          <a href="#">
+              <img src="https://via.placeholder.com/" width="47" height="56" alt="Ссылка для скачивания приложения для операционой системы IOS">
+          </a>
+        </li>
+        <li class="intro__item">
+          <a href="#">
+            <img src="https://via.placeholder.com/" width="43" height="47" alt="Ссылка для скачивания приложения для операционной системы Android">
+          </a>
+        </li>
+        <li class="intro__item">
+          <a href="#">
+            <img src="https://via.placeholder.com/" width="44" height="41" alt="Ссылка для скачивания приложения для операционной системы Microsoft">
+          </a>
+        </li>
+      </ul>
+      <p class="intro__description">Доступно для iPhone, iPad, Android, Windows Phone, OS X, Windows 8</p>
+    </div>
+  </header>
+  <main>
+    <h1 class="visually-hidden">Сайт фотоприложения для раскрашивания серых будней "Пинк"</h1>
+    <section class="advantages">
+      <p class="advantages__offer">Устали от серости мегаполиса?</p>
+      <p class="advantages__offer">Нам есть, что вам предложить!</p>
+      <ul class="advantages__list">
+        <li class="advantages__item">
+          <p class="advantages__title">Поднимает настроение</p>
+          <p class="advantages__description">Приложение позволит вам победить осеннюю хандру и депрессию буквально в несколько кликов!</p>
+        </li>
+        <li class="advantages__item">
+          <p class="advantages__title">Меняет мир вокруг</p>
+          <p class="advantages__description">Сделайте снимок и украсьте его смайликом или текстовой подписью, чтобы усилить эффект</p>
+        </li>
+        <li class="advantages__item">
+          <p class="advantages__title">Заводит новых друзей</p>
+          <p class="advantages__description">Ставьте лайки, комментируйте, делитесь фотографиями с друзьями и заводите новых</p>
+        </li>
+      </ul>
+      <div class="slider">
+        <img scr="https://via.placeholder.com/" width="157" height="320" alt="">
+        <div class="slider-screen">
+          <img scr="https://via.placeholder.com/" width="263" height="467" alt="">
+          <img scr="https://via.placeholder.com/" width="263" height="467" alt="">
+          <img scr="https://via.placeholder.com/" width="263" height="467" alt="">
+        </div>
+      </div>
+    </section>
+  </main>
+  <footer>
+  </footer>
+</body>
 </html>
