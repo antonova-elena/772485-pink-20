@@ -1,0 +1,39 @@
+.photo {
+  background: #FFFFFF;
+}
+
+.photo__list {
+  background: $lightgrey;
+}
+
+.photo__title {
+  color: $darkgrey;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 30px;
+}
+
+.photo__author {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 24px;
+}
+
+.photo__description {
+  color: #283645;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 24px;
+}
+
+.photo__like-count {
+  color: #D22856;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 24px;
+  text-transform: uppercase;
+}
