@@ -1,12 +1,9 @@
 .intro {
-  background-image: url("../source/img/bg-back-mobile@1x.jpg");
-  outline: 5px solid yellow;
+  background-image: url("/img/bg-back-mobile@1x.jpg");
+  background-repeat: no-repeat;
 }
 
 .intro__title {
-  color: #ffffff ;
-  font-style: normal;
-  font-weight: 300;
-  font-size: 24px;
-  line-height: 33px;
+  color: $white;
+  @include font-set(300, 24px, 29px);
 }

@@ -1,10 +1,20 @@
+@media (min-width: $tablet-width) {
+  .site-list {
+    width: 660px;
+  }
+}
+
+@media (min-width: $desktop-width) {
+  .site-list {
+    width: 1200px;
+  }
+}
+
 .site-list__item {
   background: $darkgrey;
-  box-shadow: 0px 1px 0px #000000, inset 0px 1px 0px rgba(255, 255, 255, 0.15);
-  color: #FFFFFF;
-  font-family: Open Sans;
+  box-shadow: 0px 1px 0px $black, inset 0px 1px 0px rgba(255, 255, 255, 0.15);
+  color: $white;
   font-style: normal;
-  font-weight: bold;
-  font-size: 18px;
-  line-height: 32px;
+  text-transform: uppercase;
+  @include font-set(700, 18px, 32px);
 }

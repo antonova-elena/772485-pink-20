@@ -1,4 +1,10 @@
+@import "./variables.scss";
+@import "./utils/fonts.scss";
+@import "./utils/colors.scss";
+@import "./utils/mixins.scss";
+@import "./global.scss";
 @import "./components/page.scss";
+@import "./components/main-header.scss";
 @import "./components/main-nav.scss";
 @import "./components/logo.scss";
 @import "./components/site-list.scss";
@@ -7,7 +13,6 @@
 @import "./components/advantages.scss";
 @import "./components/slider.scss";
 @import "./components/photo.scss";
-@import "./utils/variables.scss";
 
 
 

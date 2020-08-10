@@ -1,19 +1,15 @@
 .info {
-  background: #1D2631;
+  background-color: $info-background;
 }
 
 .info__button {
-  color: #FFFFFF;
+  color: $white;
   font-style: normal;
-  font-weight: bold;
-  font-size: 18px;
-  line-height: 18px;
+  @include font-set(700, 18px, 18px);
 }
 
 .info__description {
-  color: #FFFFFF;
+  color: $white;
   font-style: normal;
-  font-weight: 300;
-  font-size: 14px;
-  line-height: 24px;
+  @include font-set(300, 14px, 24px);
 }

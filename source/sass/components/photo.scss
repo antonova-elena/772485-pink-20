@@ -1,17 +1,15 @@
 .photo {
-  background: #FFFFFF;
+  background-color: $white;
 }
 
 .photo__list {
-  background: $lightgrey;
+  background-color: $lightgrey;
 }
 
 .photo__title {
   color: $darkgrey;
   font-style: normal;
-  font-weight: normal;
-  font-size: 14px;
-  line-height: 30px;
+  @include font-set(400, 14px, 30px);
 }
 
 .photo__author {
@@ -19,21 +17,18 @@
   font-weight: bold;
   font-size: 14px;
   line-height: 24px;
+  @include font-set(700, 14px, 24px);
 }
 
 .photo__description {
-  color: #283645;
+  color: $darkgrey;
   font-style: normal;
-  font-weight: normal;
-  font-size: 14px;
-  line-height: 24px;
+  @include font-set(400, 14px, 24px);
 }
 
 .photo__like-count {
-  color: #D22856;
+  color: $red;
   font-style: normal;
-  font-weight: normal;
-  font-size: 12px;
-  line-height: 24px;
   text-transform: uppercase;
+  @include font-set(400, 12px, 24px);
 }
