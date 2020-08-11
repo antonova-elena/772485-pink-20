@@ -1,23 +1,39 @@
-.advantages__offer {
-  color: $darkgrey;
-  font-style: normal;
-  @include font-set(300, 24px, 29px);
-}
-
 .advantages__list {
   background-color: $lightgrey;
+  list-style: none;
 }
 
 .advantages__title {
   color: $black;
-  font-style: normal;
   @include font-set(700, 18px, 24px);
 }
 
 .advantages__description {
   color: $darkgrey;
-  font-style: normal;
   @include font-set(400, 14px, 24px);
 }
 
+@media (min-width: $tablet-width) {
+  .advantages-wrapper {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+  .slider {
+    grid-row: 1;
+  }
+}
 
+@media (min-width: $desktop-width) {
+  .advantages__list {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 10px;
+    grid-row: 2;
+  }
+  .slider-screen {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 10px;
+    grid-row: 1;
+  }
+}
