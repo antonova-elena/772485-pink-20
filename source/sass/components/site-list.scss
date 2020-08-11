@@ -1,3 +1,9 @@
+@media (min-width: $mobile-width-only) {
+  .site-list {
+    width: 320px;
+  }
+}
+
 @media (min-width: $tablet-width) {
   .site-list {
     width: 660px;
@@ -6,15 +12,18 @@
 
 @media (min-width: $desktop-width) {
   .site-list {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
     width: 1200px;
   }
 }
 
 .site-list__item {
-  background: $darkgrey;
+  background-color: $darkgrey;
   box-shadow: 0px 1px 0px $black, inset 0px 1px 0px rgba(255, 255, 255, 0.15);
   color: $white;
-  font-style: normal;
   text-transform: uppercase;
   @include font-set(700, 18px, 32px);
 }
