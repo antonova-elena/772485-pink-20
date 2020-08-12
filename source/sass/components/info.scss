@@ -1,10 +1,12 @@
 .info__button {
   color: $white;
+
   @include font-set(700, 18px, 18px);
 }
 
 .info__description {
   color: $white;
+
   @include font-set(300, 14px, 24px);
 }
 

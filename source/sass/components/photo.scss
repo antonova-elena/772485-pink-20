@@ -15,6 +15,7 @@
 .photo__title {
   color: $darkgrey;
   font-style: normal;
+
   @include font-set(400, 14px, 30px);
 }
 
@@ -23,12 +24,14 @@
   font-weight: bold;
   font-size: 14px;
   line-height: 24px;
+
   @include font-set(700, 14px, 24px);
 }
 
 .photo__description {
   color: $darkgrey;
   font-style: normal;
+
   @include font-set(400, 14px, 24px);
 }
 
@@ -36,6 +39,7 @@
   color: $red;
   font-style: normal;
   text-transform: uppercase;
+
   @include font-set(400, 12px, 24px);
 }
 

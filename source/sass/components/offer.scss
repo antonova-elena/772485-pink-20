@@ -1,8 +1,9 @@
 .offer {
   background-color: $white;
-  }
+}
 
 .offer__title {
   color: $darkgrey;
+
   @include font-set(300, 24px, 29px);
 }
