@@ -1,0 +1,15 @@
+.investigation {
+  background-color: $white;
+}
+
+@media (min-width: $desktop-width) {
+  .investigation {
+    background-color: $lightgrey;
+  }
+}
+
+@media (max-width: $mobile-width-only) {
+  .investigation {
+    display: none;
+  }
+}
